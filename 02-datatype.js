@@ -9,7 +9,7 @@ console.log("Weight: ", weight);
 var weightTypeOf = typeof weight;
 console.log("Type of weight: ", weightTypeOf);
 
-console.log(" ====== Primitive Data type: String ====== ");
+console.log(" ====== Non-Primitive Data type: String ====== ");
 var city = "Pune";
 console.log("CITY: ", city);
 var cityTypeOf = typeof city;

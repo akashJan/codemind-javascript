@@ -23,8 +23,9 @@ console.log(
   " Concat Result: ",
   resultConcat
 );
+console.log("Using back stick");
 console.log(
-  ` String one: ${strOne}, String two: ${strTwo}, Concat Result:${resultConcat}  `
+  `String one: ${strOne}, String two: ${strTwo}, Concat Result:${resultConcat}`
 );
 
 // String Template Backtick `, $, {}
@@ -42,7 +43,7 @@ var trimResult = city.trim();
 console.log(`After trim: ${trimResult}, and it's length: ${trimResult.length}`);
 
 console.log(
-  ` Count the total number of spaces available in the start and in the end `
+  `Count the total number of spaces available in the start and in the end `
 );
 var totalSpaces = city.length - trimResult.length;
 console.log(`Total spaces available: ${totalSpaces}`);
@@ -50,19 +51,19 @@ console.log(`Total spaces available: ${totalSpaces}`);
 var country = "   Unites States Of America  ";
 var trimStartResult = country.trimStart(); // "Unites States Of America  "
 console.log(
-  ` Total spaces available in the start is: ${
+  `Total spaces available in the start is: ${
     country.length - trimStartResult.length
   }`
 );
 
 var trimEndResult = country.trimEnd(); // "Unites States Of America  "
 console.log(
-  ` Total spaces available in the start is: ${
+  `Total spaces available in the start is: ${
     country.length - trimEndResult.length
   }`
 );
 
 var age = 22;
-console.log(` Age ${age}, ${typeof age} `);
+console.log(`Age ${age}, ${typeof age} `);
 var ageString = age.toString(); // "22"
-console.log(` Age string: ${ageString}, data type: ${typeof ageString}`);
+console.log(`Age string: ${ageString}, data type: ${typeof ageString}`);
