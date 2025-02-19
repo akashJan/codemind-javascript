@@ -1,4 +1,4 @@
-// Assignment on Function
+// Assignment on Function & String
 
 var str = "   Hey you are doing good, keep it up   ";
 function stringHandsOn() {

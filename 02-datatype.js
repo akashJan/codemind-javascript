@@ -1,4 +1,4 @@
-console.log(" ******* Primitive Data type: Primitive ****** ");
+console.log(" ******* Primitive Data type: Number ****** ");
 var age = 22;
 console.log("AGE: ", age);
 var ageTypeOf = typeof age;
@@ -9,7 +9,7 @@ console.log("Weight: ", weight);
 var weightTypeOf = typeof weight;
 console.log("Type of weight: ", weightTypeOf);
 
-console.log(" ====== Non-Primitive Data type: String ====== ");
+console.log(" ******* Primitive Data type: String ******* ");
 var city = "Pune";
 console.log("CITY: ", city);
 var cityTypeOf = typeof city;
@@ -20,13 +20,13 @@ console.log("PIN: ", pin);
 var pinTypeOf = typeof pin;
 console.log("Type of PIN:", pinTypeOf);
 
-console.log(" ====== Primitive Data type: Boolean ====== ");
+console.log(" ******* Primitive Data type: Boolean ******* ");
 var isMarried = true;
 console.log("Married Status: ", isMarried);
 var isMarriedTypeOf = typeof isMarried;
 console.log("Type of isMarried: ", isMarriedTypeOf);
 
-console.log("======== Special Data type ========");
+console.log(" ******* Special Data type ******* ");
 var fullName;
 console.log("Before initialization fullName: ", fullName); // undefined
 var fullNameTypeOf = typeof fullName;
