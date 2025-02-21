@@ -9,13 +9,13 @@ for (let index = 50; index >= 40; index--) {
 }
 
 console.log(`===== Program to print first 15 odd number =======`);
-for (let index = 1; index < 15; index++) {
+for (let index = 0; index <= 15; index++) {
   let oddNumber = 2 * index + 1;
   console.log(oddNumber);
 }
 
 console.log(`===== Program to print first 10 even number =======`);
-for (let index = 1; index < 10; index++) {
+for (let index = 0; index <= 10; index++) {
   let evenNumber = 2 * index;
   console.log(evenNumber);
 }
