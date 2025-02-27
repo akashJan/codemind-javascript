@@ -42,3 +42,6 @@ console.log(result);
 console.log("=======concat() =======");
 let array1 = [1, 3, 5, 7, 9];
 let array2 = [2, 4, 6, 8, 10];
+
+let res = array1.concat(array2);
+console.log(`Concat array is: ${res}`);
