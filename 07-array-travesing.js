@@ -21,7 +21,7 @@ for (let index = 0; index < arrayNum.length; index++) {
     console.log(element);
   }
 }
-console.log("======== for of loop==========");
+console.log("======== for of loop ==========");
 let arrays = [7, 2, 5, 8, 6, 4, 11];
 for (const element of arrays) {
   console.log(element);
