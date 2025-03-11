@@ -1,5 +1,10 @@
 class Student {
   // Data members
+  // name;
+  // college;
+  // marks;
+  // city;
+
   // Constructor
   constructor(name, college, marks, city) {
     this.name = name;
