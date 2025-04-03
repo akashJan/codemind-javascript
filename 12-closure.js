@@ -14,3 +14,4 @@ function outer() {
 }
 var result = outer();
 result();
+// console.log(result);

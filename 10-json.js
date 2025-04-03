@@ -1,3 +1,4 @@
+console.log("========== Object to Json ====================");
 let std = {
   firstName: "Jenny",
 
@@ -21,11 +22,11 @@ let std = {
 
   friends: ["Jenny", "Bill", "Stew", "Elon"],
 };
-
-console.log(typeof std);
+console.log("Type of give object is: " + typeof std);
 
 const stdJsonString = JSON.stringify(std);
 
+console.log("Object to JSON conversion: " + typeof stdJsonString);
 console.log(stdJsonString);
 
 console.log("========== Json to Object ====================");
@@ -58,10 +59,10 @@ const employeeJson = `
 
 }`;
 
-console.log(typeof employeeJson);
+console.log("Type of given string is: " + typeof employeeJson);
 
 const employeeObj = JSON.parse(employeeJson);
 
-console.log(typeof employeeObj);
+console.log("JSON to Object conversion: " + typeof employeeObj);
 
 console.log(employeeObj);
