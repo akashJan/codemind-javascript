@@ -17,8 +17,8 @@
 // console.log(`Is 15 prime number: ${result}`);
 
 let array = [3, 9, 7, 6, 19, 29, 53];
-let primeCount = 0;
-let numberCount = [];
+let totalCount = 0;
+let primeCount = [];
 
 function isPrime(num) {
   if (num < 2) return false;
@@ -27,16 +27,15 @@ function isPrime(num) {
       return false;
     }
   }
-
   return true;
 }
 
 for (const element of array) {
   if (isPrime(element)) {
-    primeCount++;
-    numberCount.push(element);
+    totalCount++;
+    primeCount.push(element);
   }
 }
 
-console.log(`Prime Numbers: ${numberCount}`);
-console.log(`Total Count: ${primeCount}`);
+console.log(`Prime Numbers: ${primeCount}`);
+console.log(`Total Count: ${totalCount}`);

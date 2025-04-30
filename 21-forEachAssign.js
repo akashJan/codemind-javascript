@@ -35,7 +35,7 @@ let sum = 0;
 arrayNumbers.forEach((element) => {
   sum = sum + element;
 });
-console.log(`Sum oft the element is: ${sum}`);
+console.log(`Sum of the element is: ${sum}`);
 
 console.log("-----task 6----");
 arrayNumbers.forEach((element, index) => {

@@ -17,7 +17,7 @@ let mull = (num1, num2, num3 = 1) => {
   console.log(`Multiplication of 5,5 & default value 1 is: ${result2} `);
 };
 
-mull(5, 5);
+mull(10, 4);
 
 console.log("-----task 3----");
 

@@ -1,7 +1,8 @@
 // Default export
-// export default myName;
 
 // const myName = "Jenny";
+// export default myName;
+
 const person = {
   name: "Jenny",
   age: 22,
@@ -15,6 +16,7 @@ export const array = [10, 15, 20, 40];
 export function square(num) {
   console.log(`Square is: ${num * num}`);
 }
+
 
 // Default Export
 export default person;

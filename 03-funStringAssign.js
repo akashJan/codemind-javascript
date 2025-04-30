@@ -11,7 +11,7 @@ function stringHandsOn() {
   var extraSpaces = str.length - result.length;
   console.log(`4:- Extra Spaces: ${extraSpaces}\n`);
   var firstChar = result.charAt(0);
-  var lastChar = result.length - 1;
+  var lastChar = result.charAt(result.length - 1);
   console.log(
     `5:- First and Last character after trim:\nFirst Char: ${firstChar} , Last Char: ${lastChar}\n`
   );

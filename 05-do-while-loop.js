@@ -31,7 +31,7 @@ do {
 console.log(`===== Program to print first 10 even number =======`);
 var i = 0;
 do {
-  evenNumbers = 2 * i;
+  let evenNumbers = 2 * i;
   console.log(evenNumbers);
   i++;
 } while (i < 10);

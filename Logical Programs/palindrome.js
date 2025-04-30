@@ -15,6 +15,18 @@
 // const result = isPalindrome("madam");
 // console.log(result);
 
+function isPalindrome(str) {
+  for (let left = 0, right = str.length - 1; left < right; left++, right--) {
+    if (str[left] !== str[right]) {
+      return false;
+    }
+  }
+  return true;
+}
+
+const result = isPalindrome("madam");
+console.log(result);
+
 // function isPalindrome(str) {
 //   let str1 = str.toLowerCase();
 //   let str2 = str1.split("").reverse().join("");
@@ -32,15 +44,15 @@
 
 // Accepting string as array , checking each word for palindrome
 
-let strings = ["madam", "141", "Sunday", "mom", "listen", "dad"];
-function isPalindrome(str) {
-  let reversed = str.toLowerCase().split("").reverse().join("");
-  return str.toLowerCase() == reversed;
-}
-strings.forEach((str) => {
-  console.log(
-    `Give string "${str}" is : ${
-      isPalindrome(str) ? "a Palindrome" : "not a Palindrome"
-    } `
-  );
-});
+// let strings = ["madam", "141", "Sunday", "mom", "listen", "dad"];
+// function isPalindrome(str) {
+//   let reversed = str.toLowerCase().split("").reverse().join("");
+//   return str.toLowerCase() == reversed;
+// }
+// strings.forEach((str) => {
+//   console.log(
+//     `Give string "${str}" is : ${
+//       isPalindrome(str) ? "a Palindrome" : "not a Palindrome"
+//     } `
+//   );
+// });
